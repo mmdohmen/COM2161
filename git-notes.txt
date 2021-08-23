@@ -1,0 +1,26 @@
+GIT
+GITHUB usuario: mmdohmen
+       pass:    z18079551
+
+comandos 
+pwd (muestra el directorio donde estoy usando git)
+ls
+ls -all
+mkdir (crear carpetas)
+clear (borrar pantalla)
+
+1) git init (iniciar un repositorio)
+   git status (muestra el estado del repositorio)
+2) git add (agrego archivos al repositorio)
+
+   git config --global user.email "you@example.com" (configurar correo)
+   git config --global user.name "Your Name"        (configurar usuario)
+
+3) git commit -m "1er cambio" (guardar cambios haciendo previamente un git add)
+
+4) git log             (muestra el historial de versiones)
+   git log --oneline   (muestra el resumen del historial de versiones)
+
+5) git remote add origin https://github.com/mmdohmen/COM2161
+   git branch -M main
+   git push -u origin main
